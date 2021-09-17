@@ -7,6 +7,6 @@ int main()
   c = a;
   a = b;
   b = c;
-  printf("After swapping:\na = %d, b = %d",a,b);
+  printf("\nAfter swapping:\na = %d, b = %d",a,b);
   return 0;
 }
