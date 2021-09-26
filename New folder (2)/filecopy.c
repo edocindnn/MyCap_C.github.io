@@ -8,7 +8,7 @@ void main(int argc,char *argv[])
     FILE *copyfile;
     //argc hold this C file + main file + copy file = 3
     if(argc != 3){
-        printf("\nCan not open file for reading…");
+        printf("\nCan not open file for readingâ€¦");
         exit(1);
     }
     mainfile = fopen(argv[1],"r");
